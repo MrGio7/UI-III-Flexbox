@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 880px;
+	margin: auto;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+
+.container nav a {
+	text-decoration: none;
+	color: gray;
+	margin: 20px;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin: 40px 0;
+
+}
+
+.container2 div {
+	text-align: center;
+
+}
+
+.container2 div h1 {
+	font-size: 80px;
+}
+
+.container2 div a {
+	padding: 0 30px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+
+.container3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 2px solid black;
+}
+
+.container3 div {
+	margin: 20px 10px;
+}
+
+.container4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+
+.container4 div {
+	margin: 20px 10px;
+}
+
+.contact {
+	margin-top: 35px;
+}
+
+.copyright {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.servicesContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 2px solid black;
+	margin: 40px 0;
+}
+
+.servicesContainer div {
+	width:420px;
+	border: 1px solid black;
+	background: ghostwhite;
+	margin: 40px 0;
+	padding: 20px;
+}
+
+.servicesContainer div a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	padding: 5px 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	
+}
+
+.aboutServices {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 3px solid black;
+	padding: 40px 0;
+}
+
+.aboutServices div {
+	margin: 0 20px;
+}
+
+
+ul.b{
+	list-style-type: square;
+	margin: 20px 0;
+}
+
+ul.b li{
+	margin:10px;
+}
